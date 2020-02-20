@@ -124,7 +124,7 @@ BallrichtungX = -1*BallrichtungX;
     BallrichtungX = -1*BallrichtungX;
     map(BallpositionY-Spieler2Y, -SpielerGroesse/2, SpielerGroesse/2, 15, 15);
   }
-  /*
+  
     xMultiplier = prozent( SpielerGroesse, BallpositionY-Spieler1Y)-50;
    yMultiplier = prozent( SpielerGroesse, BallpositionX-Spieler1X)+50;
    xMultiplier = abs(xMultiplier);
@@ -158,7 +158,7 @@ BallrichtungX = -1*BallrichtungX;
    if (BallkollidiertmitSpieler2()) {
    
    BallrichtungX = -1*BallrichtungX;
-   }*/
+   }
 };
 boolean BallkollidiertmitSpieler1() {
   if (BallpositionX <= Spieler1X && BallpositionX >= Spieler1X - SpielerBreite) {
